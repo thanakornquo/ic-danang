@@ -1,8 +1,12 @@
-@import('font/fonts.css');
+@import url("font/fonts.css");
 
 body{
 	font-family: 'ITC New Baskerville', serif !important;
 	
+}
+
+.bootstrap_form label, .bootstrap_form input, .bootstrap_form button, .bootstrap_form select, .bootstrap_form textarea{
+	font-family: 'ITC New Baskerville', serif !important;
 }
 
 .block.bt_form_input .form_input input[type=text], .block.bt_form_input .form_input input[type=email], .block.bt_form_input .form_input input[type=tel]{
@@ -14,7 +18,9 @@ body{
 	border-width: 2px 2px 2px 2px !important;
 	border-radius: 2px 2px 2px 2px !important;
 	font-size: 18px !important;
-	width: 100% !important;
+	width: 300px !important;
+	max-width: 60% !important;
+	padding: 10px;
 }
 
 .block.bt_form_input .form_input input[type=text]:hover, .block.bt_form_input .form_input input[type=email]:hover, .block.bt_form_input .form_input input[type=tel]:hover,
@@ -34,5 +40,10 @@ body{
 	border-width: 2px 2px 2px 2px  !important;
 	border-color: #D8BDB4  !important;
 	border-radius: 0px 0px 0px 0px  !important;
-	padding: 10px 10px 10px 10px  !important;
+	padding: 10px 30px 10px 30px  !important
+}
+
+.bulletproof_button_medium:hover{
+	color: #D8BDB4  !important;
+	background-color: #ffffff  !important;
 }
