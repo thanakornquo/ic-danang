@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ITC New Baskerville';
+    src: url('NewBaskervilleITCbyBT-Roman.eot');
+    src: url('NewBaskervilleITCbyBT-Roman.eot?#iefix') format('embedded-opentype'),
+        url('NewBaskervilleITCbyBT-Roman.woff2') format('woff2'),
+        url('NewBaskervilleITCbyBT-Roman.woff') format('woff'),
+        url('NewBaskervilleITCbyBT-Roman.svg#NewBaskervilleITCbyBT-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
