@@ -5,22 +5,21 @@ body{
 	
 }
 
-input[type="text"],
-input[type="email"]{
+.block.bt_form_input .form_input input[type=text], .block.bt_form_input .form_input input[type=email], .block.bt_form_input .form_input input[type=tel]{
 	font-family: 'ITC New Baskerville', serif !important;
-	box-shadow: inset 0 0px 0px transparent;
-	background-color: #ffffff;
-	border-color: #D8BDB4;
-	border-width: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
-	font-size: 18px;
+	border: 1px solid #D8BDB4 !important;
+	box-shadow: inset 0 0px 0px transparent !important;
+	background-color: #ffffff !important;
+	border-color: #D8BDB4 !important;
+	border-width: 2px 2px 2px 2px !important;
+	border-radius: 2px 2px 2px 2px !important;
+	font-size: 18px !important;
+	width: 100% !important;
 }
 
-input[type="text"]:hover,
-input[type="email"]:hover,
-input[type="text"]active,
-input[type="email"]:active,
-input[type="text"]:focus,
-input[type="email"]:focus{
-	border-color: #D8BDB4;
+.block.bt_form_input .form_input input[type=text]:hover, .block.bt_form_input .form_input input[type=email]:hover, .block.bt_form_input .form_input input[type=tel]:hover,
+.block.bt_form_input .form_input input[type=text]:active, .block.bt_form_input .form_input input[type=email]:active, .block.bt_form_input .form_input input[type=tel]:active,
+.block.bt_form_input .form_input input[type=text]:focus, .block.bt_form_input .form_input input[type=email]:focus, .block.bt_form_input .form_input input[type=tel]:focus{
+	border-color: #D8BDB4 !important;
+	box-shadow: inset 0 0px 0px transparent !important;
 }	
